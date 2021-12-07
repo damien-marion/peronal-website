@@ -1,0 +1,42 @@
+<!-- from https://gykovacsblog.wordpress.com/tag/jekyll-scholar/ -->
+
+<div class="text-justify">{{reference}}</div>
+{% if entry.biburl %}
+<a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
+{% endif %}
+
+<!-- <button class="button0"  onclick="toggleBibtex{{entry.key}}()">Bibtex</button> -->
+
+<!-- {% if entry.doi %} -->
+<!-- <a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input class="button0" type="button" value="link" /></a> -->
+<!-- {% endif %} -->
+
+{% if entry.url %}
+<a href="{{ entry.url }}"><input class="button1" type="button" value="pdf" /></a>
+{% endif %}
+
+<!-- {% if entry.preprint %} -->
+<!-- <a href="{{ entry.preprint }}"><input class="button0" type="button" value="preprint" /></a> -->
+<!-- {% endif %} -->
+
+<!-- {% if entry.link %} -->
+<!-- <a href="{{ entry.link }}"><input class="button0" type="button" value="link" /></a> -->
+<!-- {% endif %} -->
+
+<!-- {% if entry.code %} -->
+<!-- <a href="{{ entry.code }}"><input class="button0" type="button" value="code" /></a> -->
+<!-- {% endif %} -->
+
+<!-- <div id="a{{entry.key}}" style="display: none;"> -->
+<!--   <pre>{{entry.bibtex}}</pre> -->
+<!-- </div> -->
+<!-- <script> -->
+<!--   function toggleBibtex{{entry.key}}(parameter) { -->
+<!--     var x= document.getElementById('a{{entry.key}}'); -->
+<!--     if (x.style.display === 'none') { -->
+<!--       x.style.display = 'block'; -->
+<!--     } else { -->
+<!--       x.style.display = 'none'; -->
+<!--     } -->
+<!--   } -->
+<!-- </script> -->

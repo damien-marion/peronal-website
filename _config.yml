@@ -1,12 +1,41 @@
-title: Minimalist theme
-logo: /assets/img/logo.png
-email: bogus at gmail dot com
-description: Minimalist is a theme powered by Jekyll. It is modified based on the Minimal theme.
+title: "Damien Marion"
+logo: /assets/img/picture_dma.jpg
+# email: damien.marion {at} gmail.com // damien.marion {at} irisa.fr
+# blank_title: true
+favicon: true
+description: "Side-Channel researcher at Univ Rennes, CNRS, Inria, IRISA
+Rennes, France."
 show_downloads: false
-google_analytics: UA-108144808-1
+google_analytics:
 theme: jekyll-theme-minimalist
-color-scheme: auto
+color-scheme: dark
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+  - 'jekyll/scholar'
+
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bibtemplate
+
+  replace_strings: true
+  join_strings:    true
+
+  # use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"

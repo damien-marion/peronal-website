@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:32px;
+  font-size:26px;
 }
 
 h2 {
@@ -139,7 +139,7 @@ kbd {
 }
 
 .sidebar {
-  width:185px;
+  width: 240px;//185px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
