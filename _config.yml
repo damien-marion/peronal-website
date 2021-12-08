@@ -2,7 +2,7 @@ title: "Damien Marion"
 logo: /assets/img/picture_dma.jpg
 # email: damien.marion {at} gmail.com // damien.marion {at} irisa.fr
 # blank_title: true
-# favicon: true
+favicon: false
 description: "Side-Channel researcher at Univ Rennes, CNRS, Inria, IRISA
 Rennes, France."
 show_downloads: false
