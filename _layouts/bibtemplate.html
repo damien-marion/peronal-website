@@ -1,8 +1,10 @@
 <!-- from https://gykovacsblog.wordpress.com/tag/jekyll-scholar/ -->
 
 <div class="text-justify">{{reference}}</div>
+
+<div style="display:flex; justify-content:flex-end; width:100%; padding:0;">
 {% if entry.biburl %}
-<a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
+  <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
 {% endif %}
 
 <!-- <button class="button0"  onclick="toggleBibtex{{entry.key}}()">Bibtex</button> -->
@@ -14,6 +16,7 @@
 {% if entry.url %}
 <a href="{{ entry.url }}"><input class="button1" type="button" value="pdf" /></a>
 {% endif %}
+</div>
 
 <!-- {% if entry.preprint %} -->
 <!-- <a href="{{ entry.preprint }}"><input class="button0" type="button" value="preprint" /></a> -->
