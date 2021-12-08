@@ -26,18 +26,19 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 [Sylvain Guilley](https://perso.telecom-paristech.fr/guilley/): 
 {% bibliography -q @phdthesis %}
 
-## Journal Articles
-
-{% bibliography -q @article %} 
-
 <!--  -->
 <!-- ## Book Chapters -->
 
 <!-- {% bibliography -q @inbook %} -->
 
-## Conferences and Workshops
+## Last publications
+{% bibliography -q @*[year >= 2021] %}
 
-{% bibliography -q @inproceedings %}
+## Conferences and Workshops
+{% bibliography -q @inproceedings[year < 2021] %}
+
+## Journal Articles
+{% bibliography -q @article[year < 2021] %} 
 
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
