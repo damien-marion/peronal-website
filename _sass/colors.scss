@@ -126,7 +126,7 @@ hvr -> hover
 .button0 {
     background-color:#2A99D2; // #4CAF50;
     border: none;
-    color: white;
+    color: black;
     padding: 4px 8px;
     text-align: center;
     text-decoration: none;
@@ -139,9 +139,26 @@ hvr -> hover
 }
 
 .button1 {
-    background-color:#4CAF50;
+    background-color:#68A5C4;
     border: none;
-    color: white;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    // display:flex;
+    // justify-content: flex-end;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button2{
+    background-color:#B3B3B3;
+    border: none;
+    color: black;
     padding: 4px 8px;
     text-align: center;
     text-decoration: none;

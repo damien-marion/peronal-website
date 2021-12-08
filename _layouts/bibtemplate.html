@@ -1,21 +1,34 @@
 <!-- from https://gykovacsblog.wordpress.com/tag/jekyll-scholar/ -->
 
 <div class="text-justify">{{reference}}</div>
-
 <div style="display:flex; justify-content:flex-end; width:100%; padding:0;">
-{% if entry.biburl %}
+
+  {% if entry.biburl and entry.url and entry.code %}
   <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
-{% endif %}
+  <a href="{{ entry.url }}"><input class="button1" type="button" value="pdf" /></a>
+  <a href="{{ entry.code }}"><input class="button2" type="button" value="code" /></a>
 
-<!-- <button class="button0"  onclick="toggleBibtex{{entry.key}}()">Bibtex</button> -->
+  {% elsif entry.biburl and entry.url %}
+  <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
+  <a href="{{ entry.url }}"><input class="button2" type="button" value="pdf" /></a>
 
-<!-- {% if entry.doi %} -->
-<!-- <a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input class="button0" type="button" value="link" /></a> -->
-<!-- {% endif %} -->
+  {% elsif entry.code and entry.url and entry.code %}
+  <a href="{{ entry.url }}"><input class="button0" type="button" value="pdf" /></a>
+  <a href="{{ entry.code }}"><input class="button2" type="button" value="code" /></a>
 
-{% if entry.url %}
-<a href="{{ entry.url }}"><input class="button1" type="button" value="pdf" /></a>
-{% endif %}
+  {% elsif entry.biburl and entry.code %}
+  <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
+  <a href="{{ entry.code }}"><input class="button2" type="button" value="code" /></a>
+
+  {% elsif entry.biburl %}
+  <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
+
+  {% elsif entry.url %}
+  <a href="{{ entry.url }}"><input class="button0" type="button" value="pdf" /></a>
+
+  {% elsif entry.code %}
+  <a href="{{ entry.code }}"><input class="button0" type="button" value="code" /></a>
+  {% endif %}
 </div>
 
 <!-- {% if entry.preprint %} -->
