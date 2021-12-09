@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-## Who Am I?
+<!-- <p style='text-align: right;'> [ {{ page.last_modified_at | date: '%d  %B  %Y' }}] </p> -->
+<h5 style="font-size:0.6vw"><i><p align='right'>[Last update: {{ page.last_modified_at | date: '%d  %B  %Y' }}]</p></i></h5>
+       
+## Who Am I? 
+
 I am currently Postdoc in the [EMSEC](https://www.irisa.fr/emsec/?p=presentation)
 (Capsule) team, inside the IRISA laboratory. I am supervised by 
 [Annelie Heuser](http://www.annelieheuser.com/).
