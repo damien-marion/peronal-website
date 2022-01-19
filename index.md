@@ -44,6 +44,11 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 ## Journal Articles
 {% bibliography -q @article[year < 2021] %} 
 
+## Media Coverage
+- [Detecting evasive malware on IOT devices using electromagnetic emanations](https://thehackernews.com/2022/01/detecting-evasive-malware-on-iot.html). *The Hacker News, January 03, 2022*. 
+- [Using EM Waves to Detect Malware](https://www.schneier.com/blog/archives/2022/01/using-em-waves-to-detect-malware.html). *Schneier on Security, January 14, 2022*.
+- [Raspberry Pi Can Detect Malware Using Electromagnetic Waves, Say Researchers](https://www.indiatimes.com/technology/news/raspberry-pi-can-detect-malware-559086.html). *Indian Times, January 16, 2022.*
+- [On peut détecter des malwares avec précision grâce... aux ondes électromagnétiques ](https://www.01net.com/actualites/on-peut-detecter-des-malwares-avec-precision-grace-aux-ondes-electromagnetiques-2053625.html). *01 net, January 16, 2022 (in French)*.
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
 
