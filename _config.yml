@@ -19,7 +19,7 @@ plugins:
 # Optional. The default date format, used if none is specified in the tag.
 ## try
 last-modified-at:
-    date-format: '%d-%b-%y'
+  date-format: '%d-%b-%y'
 
 scholar:
   style: apa

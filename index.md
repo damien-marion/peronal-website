@@ -16,7 +16,7 @@ I am involved in:
 - the ANR IDROMEL on the power side-channel leakages induced by
   micro-architectural design choices (with Arm France, CEA, IRISA,
   LAAS, Sorbonne University).
-    
+  
 I was previously:
 - Postdoc in the [MAIS](https://www.mais.informatik.tu-darmstadt.de/)
     team, inside TU-Darmstadt. I was supervised by Heiko Mantel,
@@ -49,6 +49,7 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 - [Using EM Waves to Detect Malware](https://www.schneier.com/blog/archives/2022/01/using-em-waves-to-detect-malware.html). *Schneier on Security, January 14, 2022*.
 - [Raspberry Pi Can Detect Malware Using Electromagnetic Waves, Say Researchers](https://www.indiatimes.com/technology/news/raspberry-pi-can-detect-malware-559086.html). *Indian Times, January 16, 2022.*
 - [On peut détecter des malwares avec précision grâce... aux ondes électromagnétiques ](https://www.01net.com/actualites/on-peut-detecter-des-malwares-avec-precision-grace-aux-ondes-electromagnetiques-2053625.html). *01 net, January 16, 2022 (in French)*.
+- [Identifying Malware By Sniffing Its EM Signature](https://hackaday.com/2022/01/19/identifying-malware-by-sniffing-its-em-signature/). *harckday, January 20, 2022*.
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
 
