@@ -13,7 +13,7 @@ I am currently Postdoc in the [EMSEC](https://www.irisa.fr/emsec/?p=presentation
 I am involved in:
 - the ANR [AHMA](https://anr.fr/Project-ANR-18-CE39-000): Automated
    Hardware Malware Analysis,
-- the ANR IDROMEL on the power side-channel leakages induced by
+- the ANR [IDROMEL](https://projects.laas.fr/IDROMEL/) on the power side-channel leakages induced by
   micro-architectural design choices (with Arm France, CEA, IRISA,
   LAAS, Sorbonne University).
   
