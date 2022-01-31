@@ -22,6 +22,8 @@ last-modified-at:
   date-format: '%d-%b-%y'
 
 scholar:
+  last_name: Marion
+
   style: apa
   locale: en
 
@@ -38,7 +40,7 @@ scholar:
   replace_strings: true
   join_strings:    true
 
-  # use_raw_bibtex_entry: false
+  # use_raw_bibtex_entry: true
 
   details_dir:    bibliography
   details_layout: bibtex.html

@@ -1,6 +1,166 @@
 <!-- from https://gykovacsblog.wordpress.com/tag/jekyll-scholar/ -->
 
-<div class="text-justify">{{reference}}</div>
+<!--
+    also inspired from https://www.bouffard.info/publications/
+    thanks to him.
+
+ -->
+
+<!-- <table width="100%" border="0" class="pubs"> -->
+  <tr class="pubs">
+    <td class="pubs">
+
+      <h4 class="pub-title">
+        <!-- {% if entry.abstract %} -->
+        <!--   <a data-toggle="collapse" -->
+        <!--      href="#collapse_{{ entry.key | replace: "/", "_" }}" -->
+        <!--      aria-expanded="false" -->
+        <!--      aria-controls="collapse_{{ entry.key | replace: "/", "_" }}" -->
+        <!--      title="Toggle abstract collapse"> -->
+        <!--       {{ entry.title }} -->
+        <!--   </a> -->
+        <!-- {% else %} -->
+          {{ entry.title }}
+        <!-- {% endif %} -->
+      </h4>
+
+      <span class="pub_author">
+        {% for author in entry.author_array %}
+          {% if forloop.length == 1 %}
+            {% if author.last == site.scholar.last_name %}
+              <u>{{author.first}} {{author.last}}</u>
+            {% else %}
+              {{author.first}} {{author.last}}
+            {% endif %}
+          {% else %}
+            {% unless forloop.last %}
+              {% if author.last == site.scholar.last_name %}
+                <u>{{author.first}} {{author.last}}</u>,
+              {% else %}
+                  {{author.first}} {{author.last}},
+              {% endif %}
+            {% else %}
+              {% if author.last == site.scholar.last_name %}
+                and <u>{{author.first}} {{author.last}}</u>
+              {% else %}
+                and {{author.first}} {{author.last}}
+              {% endif %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+    </span>
+
+    {% if entry.type == "phdthesis" %}
+      - <span>PhD thesis</span>
+    {% endif %}
+
+    {% if entry.type == "masterthesis" %}
+      - <span>Master thesis</span>
+    {% endif %}
+
+    - <span class="pub_conference">
+        {% if entry.type == "article" %}
+          {{ entry.journal }}
+        {% elsif entry.type == "inproceedings" %}
+          {{ entry.booktitle }}
+        {% elsif entry.type == "incollection" %}
+          {{ entry.booktitle }}
+        {% elsif entry.type contains "thesis" %}
+          {{ entry.school }}
+        {% elsif entry.type contains "inbook" %}
+          {{ entry.booktitle }}
+        {% endif %}
+
+        {% if entry.year %}
+          ({{ entry.year }})
+        {% endif %}
+
+        {% if entry.award %}
+           - <span style="color:red;"> {{ entry.award }} </span>
+        {% endif %}
+
+      </span>
+
+      <!-- <td class="pub_links pubs"> -->
+      <!--    {% if entry.url or entry.doi %} -->
+      <!--    <a class="pub_paper_links" -->
+      <!--       {% if entry.doi %} -->
+      <!--       href="{{ entry.doi | prepend: 'https://www.doi.org/' }}" -->
+      <!--       {% else %} -->
+      <!--       href="{{ entry.url }}" -->
+      <!--       {% endif %} -->
+      <!--       title="Paper link"> -->
+      <!--      <span class="fas fa-link fa-lg" aria-hidden="true"></span> -->
+      <!--    </a> -->
+      <!--    {% endif %} -->
+
+      <!--    {% if entry.poster %} -->
+      <!--    <a class="pub_paper_links" -->
+      <!--       href="{{ entry.poster | prepend: site.scholar.files | prepend: site.baseurl }}" -->
+      <!--       title="Poster (PDF)"> -->
+      <!--      <span class="fab fa-slideshare fa-lg" aria-hidden="true"></span> -->
+      <!--    </a> -->
+      <!--    {% endif %} -->
+
+      <!--    {% assign slides_name = entry.key | append: "-slides.pdf" |  prepend: site.scholar.files | prepend: site.baseurl %} -->
+      <!--    {% assign file = site.static_files | where: "path", slides_name | first %} -->
+      <!--    {% if file %} -->
+      <!--      <a class="pub_paper_links" -->
+      <!--         href="{{ slides_name }}" -->
+      <!--         title="Slides (PDF)"> -->
+      <!--        <span class="fab fa-slideshare fa-lg" aria-hidden="true"></span> -->
+      <!--      </a> -->
+      <!--    {% endif %} -->
+
+      <!--    {% assign video_name = entry.key | append: "-video.mp4" |  prepend: site.scholar.files | prepend: site.baseurl %} -->
+      <!--    {% assign file = site.static_files | where: "path", video_name | first %} -->
+      <!--    {% if file %} -->
+      <!--      <a class="pub_paper_links" -->
+      <!--         href="{{ video_name }}" -->
+      <!--         title="Presentation (video)"> -->
+      <!--        <span class="fas fa-video fa-lg" aria-hidden="true"></span> -->
+      <!--      </a> -->
+      <!--    {% endif %} -->
+
+      <!--    {% assign article_name = entry.key | append: ".pdf" |  prepend: site.scholar.files | prepend: site.baseurl %} -->
+      <!--    {% assign file = site.static_files | where: "path", article_name | first %} -->
+      <!--    {% if file %} -->
+      <!--      <a class="pub_paper_links" -->
+      <!--         href="{{ article_name }}" -->
+      <!--         title="Paper (PDF)"> -->
+      <!--        <span class="far fa-file-pdf fa-lg" aria-hidden="true"></span> -->
+      <!--      </a> -->
+      <!--    {% endif %} -->
+
+      <!--    {% comment %} -->
+      <!--    {% if entry.code %} -->
+      <!--    <a class="pub_code_links" -->
+      <!--       href="{{ entry.code }}" -->
+      <!--       title="Link to the code"> -->
+      <!--      <span class="fa fa-code fa-lg" aria-hidden="true"></span> -->
+      <!--    </a> -->
+      <!--    {% endif %} -->
+      <!--    {% endcomment %} -->
+
+      <!-- </td> -->
+    </td>
+  </tr>
+
+  <!-- <tr class="abstract"> -->
+  <!--   <td colspan="2" class="abstract"> -->
+  <!--     <div class=" collapse out abstract_panel" id="collapse_{{ entry.key | replace: "/", "_" }}"> -->
+  <!--         {% capture abstract %}{{ entry.abstract }}{% endcapture %} -->
+  <!--         {{ abstract | liquefy | markdownify }} -->
+  <!--     </div> -->
+  <!--   </td> -->
+  <!-- </tr> -->
+<!-- </table> -->
+
+<!-- div class="text-justify">{{reference}}</div> -->
+<!-- <div class="text-justify"> -->
+<!--   "<i>{{entry.title}}</i>", {{entry.author}} -->
+<!-- </div> -->
+
 <div style="display:flex; justify-content:flex-end; width:100%; padding:0;">
 
   {% if entry.biburl and entry.url and entry.code %}
@@ -12,7 +172,7 @@
   <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
   <a href="{{ entry.url }}"><input class="button2" type="button" value="pdf" /></a>
 
-  {% elsif entry.code and entry.url and entry.code %}
+  {% elsif entry.url and entry.code %}
   <a href="{{ entry.url }}"><input class="button0" type="button" value="pdf" /></a>
   <a href="{{ entry.code }}"><input class="button2" type="button" value="code" /></a>
 
@@ -29,6 +189,7 @@
   {% elsif entry.code %}
   <a href="{{ entry.code }}"><input class="button0" type="button" value="code" /></a>
   {% endif %}
+
 </div>
 
 <!-- {% if entry.preprint %} -->
