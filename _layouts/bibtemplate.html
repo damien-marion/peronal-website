@@ -26,12 +26,13 @@
 
       <span class="pub_author">
         {% for author in entry.author_array %}
-          {% if forloop.length == 1 %}
-            {% if author.last == site.scholar.last_name %}
-              <u>{{author.first}} {{author.last}}</u>
-            {% else %}
-              {{author.first}} {{author.last}}
-            {% endif %}
+        {% if forloop.length == 1 %}
+        {{author.first}} {{author.last}}
+            <!-- {% if author.last == site.scholar.last_name %} -->
+            <!--   <u>{{author.first}} {{author.last}}</u> -->
+            <!-- {% else %} -->
+            <!--   {{author.first}} {{author.last}} -->
+            <!-- {% endif %} -->
           {% else %}
             {% unless forloop.last %}
               {% if author.last == site.scholar.last_name %}
