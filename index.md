@@ -6,8 +6,8 @@ layout: default
        
 ## Who Am I? 
 
-I am currently Postdoc in the [EMSEC](https://www.irisa.fr/emsec/?p=presentation)
-(Capsule) team, inside the IRISA laboratory. I am supervised by 
+I am currently Postdoc in the [Capsule](https://team.inria.fr/capsule/team-members/)
+team, inside the IRISA laboratory. I am supervised by 
 [Annelie Heuser](http://www.annelieheuser.com/).
 
 I am involved in two ANR:
