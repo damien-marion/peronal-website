@@ -59,17 +59,20 @@
       - <span>Master thesis</span>
     {% endif %}
 
-    - <span class="pub_conference">
+    {% if entry.status != "talk" %}
+      -
+    {% endif %}
+      <span class="pub_conference">
         {% if entry.type == "article" %}
-          {{ entry.journal }}
+        {{ entry.journal }}
         {% elsif entry.type == "inproceedings" %}
-          {{ entry.booktitle }}
+        {{ entry.booktitle }}
         {% elsif entry.type == "incollection" %}
-          {{ entry.booktitle }}
+        {{ entry.booktitle }}
         {% elsif entry.type contains "thesis" %}
-          {{ entry.school }}
+        {{ entry.school }}
         {% elsif entry.type contains "inbook" %}
-          {{ entry.booktitle }}
+        {{ entry.booktitle }}
         {% endif %}
 
         {% if entry.year %}
@@ -189,6 +192,9 @@
 
   {% elsif entry.code %}
   <a href="{{ entry.code }}"><input class="button0" type="button" value="code" /></a>
+
+  {% elsif entry.video %}
+  <a href="{{ entry.video }}"><input class="button0" type="button" value="video" /></a>
   {% endif %}
 
 </div>

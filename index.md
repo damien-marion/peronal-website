@@ -34,15 +34,23 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 <!-- ## Book Chapters -->
 
 <!-- {% bibliography -q @inbook %} -->
+## Coming soon
+{% bibliography -q @*[status=not-published] %}
 
 ## Last publications
-{% bibliography -q @*[year >= 2021] %}
+{% bibliography -q @*[year >= 2021 && status=published] %}
 
 ## Conferences and Workshops
-{% bibliography -q @inproceedings[year < 2021] %}
+{% bibliography -q @inproceedings[year < 2021  && status=published] %}
 
 ## Journal Articles
-{% bibliography -q @article[year < 2021] %} 
+{% bibliography -q @article[year < 2021  && status=published] %} 
+
+## Talks
+{% bibliography -q @*[status=talk] %}
+<!-- - Malwares revealed through EM at [EDUC (European Digital UniverCity) - Session III: AI & Security](https://www.educalliance.eu/). *November, 24, 2021.* -->
+<!-- - Binary Data Analysis for Source Code Leakage Assessment at [CIDRE seminar](https://team.inria.fr/cidre/). *January 25, 2021.* -->
+
 
 ## Media Coverage
 - [Detecting evasive malware on IOT devices using electromagnetic emanations](https://thehackernews.com/2022/01/detecting-evasive-malware-on-iot.html). *The Hacker News, January 03, 2022*. 
