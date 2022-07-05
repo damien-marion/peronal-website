@@ -36,7 +36,6 @@ scholar:
   source: ./_bibliography
   bibliography: references.bib
   bibliography_template: bibtemplate
-
   replace_strings: true
   join_strings:    true
 
