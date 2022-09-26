@@ -53,11 +53,16 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 
 
 ## Media Coverage
-- [Detecting evasive malware on IOT devices using electromagnetic emanations](https://thehackernews.com/2022/01/detecting-evasive-malware-on-iot.html). *The Hacker News, January 03, 2022*. 
+### Podcasts
+- [Leveraging electromagnetic emanations for IoT malware classification](https://www.electronicspecifier.com/news/podcasts/series-9-episode-4-leveraging-electromagnetic-emanations-for-iot-malware-classification). *electronicspecifier, Series 9 – Episode 4, September 16th, 2022*. 
+
+
+### Articles
+- [Detecting evasive malware on IOT devices using electromagnetic emanations](https://thehackernews.com/2022/01/detecting-evasive-malware-on-iot.html). *The Hacker News, January 3rd, 2022*. 
 - [Using EM Waves to Detect Malware](https://www.schneier.com/blog/archives/2022/01/using-em-waves-to-detect-malware.html). *Schneier on Security, January 14, 2022*.
-- [Raspberry Pi Can Detect Malware Using Electromagnetic Waves, Say Researchers](https://www.indiatimes.com/technology/news/raspberry-pi-can-detect-malware-559086.html). *Indian Times, January 16, 2022.*
-- [On peut détecter des malwares avec précision grâce... aux ondes électromagnétiques ](https://www.01net.com/actualites/on-peut-detecter-des-malwares-avec-precision-grace-aux-ondes-electromagnetiques-2053625.html). *01 net, January 16, 2022 (in French)*.
-- [Identifying Malware By Sniffing Its EM Signature](https://hackaday.com/2022/01/19/identifying-malware-by-sniffing-its-em-signature/). *harckday, January 20, 2022*.
+- [Raspberry Pi Can Detect Malware Using Electromagnetic Waves, Say Researchers](https://www.indiatimes.com/technology/news/raspberry-pi-can-detect-malware-559086.html). *Indian Times, January 16th, 2022.*
+- [On peut détecter des malwares avec précision grâce... aux ondes électromagnétiques ](https://www.01net.com/actualites/on-peut-detecter-des-malwares-avec-precision-grace-aux-ondes-electromagnetiques-2053625.html). *01 net, January 16th, 2022 (in French)*.
+- [Identifying Malware By Sniffing Its EM Signature](https://hackaday.com/2022/01/19/identifying-malware-by-sniffing-its-em-signature/). *harckday, January 20th, 2022*.
 - [Detect malware with electromagnetic waves and Raspberry Pi](https://www.raspberrypi.com/news/detect-malware-with-electromagnetic-waves-and-raspberry-pi/). *RasperryPi, February 1st, 2022.*
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
