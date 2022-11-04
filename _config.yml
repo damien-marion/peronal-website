@@ -27,7 +27,7 @@ scholar:
   style: apa
   locale: en
 
-  sort_by: timestamp
+  sort_by: year
   order: descending
 
   group_by: none

@@ -3,11 +3,11 @@ layout: default
 ---
 <!-- <p style='text-align: right;'> [ {{ page.last_modified_at | date: '%d  %B  %Y' }}] </p> -->
 <h5 style="font-size:0.6vw"><i><p align='right'>[Last update: {{ page.last_modified_at | date: '%d  %B  %Y' }}]</p></i></h5>
-       
-## Who Am I? 
+
+## Who Am I?
 
 I am currently Postdoc in the [Capsule](https://team.inria.fr/capsule/team-members/)
-team, inside the IRISA laboratory. I am supervised by 
+team, inside the IRISA laboratory. I am supervised by
 [Annelie Heuser](http://www.annelieheuser.com/).
 
 I am involved in two ANR:
@@ -16,7 +16,7 @@ I am involved in two ANR:
 - [IDROMEL](https://projects.laas.fr/IDROMEL/): Improving the
 Design of secure systems by a Reduction Of Micro-architectural Effects
 on side-channeL Attacks Images (IRISA, LAAS-CNRS, LIP6, CEA-list, ARM, DGA)
-  
+
 I was previously:
 - Postdoc in the [MAIS](https://www.mais.informatik.tu-darmstadt.de/)
     team, inside TU-Darmstadt. I was supervised by Heiko Mantel,
@@ -27,15 +27,15 @@ I was previously:
 
 I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 [COMELEC](https://www.comelec.telecom-paristech.fr/) supervised by
-[Sylvain Guilley](https://perso.telecom-paristech.fr/guilley/): 
+[Sylvain Guilley](https://perso.telecom-paristech.fr/guilley/):
 {% bibliography -q @phdthesis %}
 
 <!--  -->
 <!-- ## Book Chapters -->
 
 <!-- {% bibliography -q @inbook %} -->
-## Coming soon
-{% bibliography -q @*[status=not-published] %}
+<!-- ## Coming soon -->
+<!-- {% bibliography -q @*[status=not-published] %} -->
 
 ## Last publications
 {% bibliography -q @*[year >= 2021 && status=published] %}
@@ -44,7 +44,7 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 {% bibliography -q @inproceedings[year < 2021  && status=published] %}
 
 ## Journal Articles
-{% bibliography -q @article[year < 2021  && status=published] %} 
+{% bibliography -q @article[year < 2021  && status=published] %}
 
 ## Talks
 {% bibliography -q @*[status=talk] %}
@@ -54,11 +54,11 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 
 ## Media Coverage
 ### Podcasts
-- [Leveraging electromagnetic emanations for IoT malware classification](https://www.electronicspecifier.com/news/podcasts/series-9-episode-4-leveraging-electromagnetic-emanations-for-iot-malware-classification). *electronicspecifier, Series 9 – Episode 4, September 16th, 2022*. 
+- [Leveraging electromagnetic emanations for IoT malware classification](https://www.electronicspecifier.com/news/podcasts/series-9-episode-4-leveraging-electromagnetic-emanations-for-iot-malware-classification). *electronicspecifier, Series 9 – Episode 4, September 16th, 2022*.
 
 
 ### Articles
-- [Detecting evasive malware on IOT devices using electromagnetic emanations](https://thehackernews.com/2022/01/detecting-evasive-malware-on-iot.html). *The Hacker News, January 3rd, 2022*. 
+- [Detecting evasive malware on IOT devices using electromagnetic emanations](https://thehackernews.com/2022/01/detecting-evasive-malware-on-iot.html). *The Hacker News, January 3rd, 2022*.
 - [Using EM Waves to Detect Malware](https://www.schneier.com/blog/archives/2022/01/using-em-waves-to-detect-malware.html). *Schneier on Security, January 14, 2022*.
 - [Raspberry Pi Can Detect Malware Using Electromagnetic Waves, Say Researchers](https://www.indiatimes.com/technology/news/raspberry-pi-can-detect-malware-559086.html). *Indian Times, January 16th, 2022.*
 - [On peut détecter des malwares avec précision grâce... aux ondes électromagnétiques ](https://www.01net.com/actualites/on-peut-detecter-des-malwares-avec-precision-grace-aux-ondes-electromagnetiques-2053625.html). *01 net, January 16th, 2022 (in French)*.
