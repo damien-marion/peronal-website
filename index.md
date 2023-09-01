@@ -5,19 +5,18 @@ layout: default
 <h5 style="font-size:0.6vw"><i><p align='right'>[Last update: {{ page.last_modified_at | date: '%d  %B  %Y' }}]</p></i></h5>
 
 ## Who Am I?
+I am currently assistant professor (Maitre de conference) at University of Rennes.  
+I am member of the [Capsule](https://team.inria.fr/capsule/team-members/)
+team, inside the IRISA laboratory. My research focus on side-channel analysis. 
 
-I am currently Postdoc in the [Capsule](https://team.inria.fr/capsule/team-members/)
-team, inside the IRISA laboratory. I am supervised by
-[Annelie Heuser](http://www.annelieheuser.com/).
-
-I am involved in two ANR:
-- [AHMA](https://anr.fr/Project-ANR-18-CE39-000): Automated
-   Hardware Malware Analysis,
-- [IDROMEL](https://projects.laas.fr/IDROMEL/): Improving the
+I am involved in the ANR project [IDROMEL](https://projects.laas.fr/IDROMEL/): Improving the
 Design of secure systems by a Reduction Of Micro-architectural Effects
-on side-channeL Attacks Images (IRISA, LAAS-CNRS, LIP6, CEA-list, ARM, DGA)
+on side-channeL Attacks (IRISA, LAAS-CNRS, LIP6, CEA-list, ARM, DGA)
 
 I was previously:
+- postdoc in [Capsule](https://team.inria.fr/capsule/team-members/)
+    team on the ANR project [AHMA](https://anr.fr/Project-ANR-18-CE39-000): 
+    Automated Hardware Malware Analysis,
 - Postdoc in the [MAIS](https://www.mais.informatik.tu-darmstadt.de/)
     team, inside TU-Darmstadt. I was supervised by Heiko Mantel,
     involved in the DFG collaborative research center
