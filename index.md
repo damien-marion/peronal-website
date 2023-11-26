@@ -11,7 +11,7 @@ team, inside the IRISA laboratory. My research focus on side-channel analysis.
 
 I am involved in the ANR project [IDROMEL](https://projects.laas.fr/IDROMEL/): Improving the
 Design of secure systems by a Reduction Of Micro-architectural Effects
-on side-channeL Attacks (IRISA, LAAS-CNRS, LIP6, CEA-list, ARM, DGA)
+on side-channeL Attacks (IRISA, LAAS-CNRS, LIP6, CEA-list, ARM, DGA).
 
 I was previously:
 - postdoc in [Capsule](https://team.inria.fr/capsule/team-members/)
