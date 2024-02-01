@@ -11,10 +11,11 @@ team, inside the IRISA laboratory. My research focus on side-channel analysis.
 
 I am involved in the ANR project [IDROMEL](https://projects.laas.fr/IDROMEL/): Improving the
 Design of secure systems by a Reduction Of Micro-architectural Effects
-on side-channeL Attacks (IRISA, LAAS-CNRS, LIP6, CEA-list, ARM, DGA).
+on side-channeL Attacks (IRISA, LAAS-CNRS, LIP6, CEA-list, ARM, DGA). I am also involved in 
+[PQ-TLS](https://pepr-pq-tls.cnrs.fr/).
 
 I was previously:
-- postdoc in [Capsule](https://team.inria.fr/capsule/team-members/)
+- postdoc in [Emsec](https://www.irisa.fr/emsec/?p=people)
     team on the ANR project [AHMA](https://anr.fr/Project-ANR-18-CE39-000): 
     Automated Hardware Malware Analysis,
 - Postdoc in the [MAIS](https://www.mais.informatik.tu-darmstadt.de/)
@@ -50,11 +51,13 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 <!-- - Malwares revealed through EM at [EDUC (European Digital UniverCity) - Session III: AI & Security](https://www.educalliance.eu/). *November, 24, 2021.* -->
 <!-- - Binary Data Analysis for Source Code Leakage Assessment at [CIDRE seminar](https://team.inria.fr/cidre/). *January 25, 2021.* -->
 
+## Projects
+- [IDROMEL](https://projects.laas.fr/IDROMEL/)
+- [PQ-TLS](https://pepr-pq-tls.cnrs.fr/)
 
 ## Media Coverage
 ### Podcasts
 - [Leveraging electromagnetic emanations for IoT malware classification](https://www.electronicspecifier.com/news/podcasts/series-9-episode-4-leveraging-electromagnetic-emanations-for-iot-malware-classification). *electronicspecifier, Series 9 – Episode 4, September 16th, 2022*.
-
 
 ### Articles
 - [Detecting evasive malware on IOT devices using electromagnetic emanations](https://thehackernews.com/2022/01/detecting-evasive-malware-on-iot.html). *The Hacker News, January 3rd, 2022*.
