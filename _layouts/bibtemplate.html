@@ -165,11 +165,97 @@
 <!--   "<i>{{entry.title}}</i>", {{entry.author}} -->
 <!-- </div> -->
 
-<div style="display:flex; justify-content:flex-end; width:100%; padding:0;">
+<style>
+table {
+  border-collapse: collapse;
+  margin-left: 0;         /* explicitly align left */
+  margin-right: 0;        /* avoid auto-centering */
+  text-align: center;
+  border: none;
+  border-spacing: 0;
+}
+
+th {
+  vertical-align: middle;
+  padding: 1px 20px;
+  text-align: center;
+  min-width: 80px;
+  border: none;
+}
+
+table i,
+table img {
+  display: block;
+  margin: auto; /* center content inside cells */
+}
+</style>
+<table>
+  <tr>
+    {% if entry.biburl %}
+      <th>
+        <a href="{{ entry.biburl }}">
+          <i class="ai ai-dblp ai-2x"></i>
+        </a>
+      </th>
+    {% endif %}
+
+    {% if entry.url %}
+      <th>
+        <a href="{{ entry.url }}">
+          <i class="ai ai-obp ai-2x"></i>
+        </a>
+      </th>
+    {% endif %}
+
+    {% if entry.code %}
+      <th>
+        <a href="{{ entry.code }}">
+          <i class="ai ai-open-materials-square ai-2x"></i>
+        </a>
+      </th>
+    {% endif %}
+
+    {% if entry.video %}
+      <th>
+        <a href="{{ entry.video }}">
+          <img src="../assets/img/link.png" style="width:48px;height:48px; vertical-align: middle;">
+        </a>
+      </th>
+    {% endif %}
+  </tr>
+
+  <tr>
+    {% if entry.biburl %}
+      <th>
+        <a href="{{ entry.biburl }}">bibtex</a>
+      </th>
+    {% endif %}
+
+    {% if entry.url %}
+      <th>
+        <a href="{{ entry.url }}">pdf</a>
+      </th>
+    {% endif %}
+
+    {% if entry.code %}
+      <th>
+        <a href="{{ entry.code }}">materials</a>
+      </th>
+    {% endif %}
+
+    {% if entry.video %}
+      <th>
+        <a href="{{ entry.video }}">video</a>
+      </th>
+    {% endif %}
+  </tr>
+</table>
+
+<!-- <div style="display:flex; justify-content:flex-end; width:100%; padding:0;">
 
   {% if entry.biburl and entry.url and entry.code %}
   <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
-  <a href="{{ entry.url }}"><input class="button1" type="button" value="pdf" /></a>
+  <a href="{{ entry.url }}"><input class="nobutton" type="button" value="pdf" /></a>
   <a href="{{ entry.code }}"><input class="button2" type="button" value="code" /></a>
 
   {% elsif entry.biburl and entry.url %}
@@ -184,6 +270,10 @@
   <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
   <a href="{{ entry.code }}"><input class="button2" type="button" value="code" /></a>
 
+  {% elsif entry.url and entry.video %}
+  <a href="{{ entry.url }}"><input class="button0" type="button" value="pdf" /></a>
+  <a href="{{ entry.video }}"><input class="button2" type="button" value="video" /></a>
+
   {% elsif entry.biburl %}
   <a href="{{ entry.biburl }}"><input class="button0" type="button" value="bibtex" /></a>
 
@@ -195,10 +285,11 @@
 
   {% elsif entry.video %}
   <a href="{{ entry.video }}"><input class="button0" type="button" value="video" /></a>
+
   {% endif %}
 
 </div>
-
+ -->
 <!-- {% if entry.preprint %} -->
 <!-- <a href="{{ entry.preprint }}"><input class="button0" type="button" value="preprint" /></a> -->
 <!-- {% endif %} -->

@@ -5,7 +5,7 @@ layout: default
 <h5 style="font-size:0.6vw"><i><p align='right'>[Last update: {{ page.last_modified_at | date: '%d  %B  %Y' }}]</p></i></h5>
 
 ## Who Am I?
-I am currently assistant professor (Maitre de conference) at University of Rennes.  
+I am currently assistant professor (Maitre de conference) in computer science at [University of Rennes](https://www.univ-rennes.fr/).  
 I am member of the [Capsule](https://team.inria.fr/capsule/team-members/)
 team, inside the IRISA laboratory. My research focus on side-channel analysis. 
 
@@ -38,20 +38,26 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 <!-- {% bibliography -q @*[status=not-published] %} -->
 
 ## Last publications
-{% bibliography -q @*[year >= 2021 && status=published] %}
+{% bibliography -q @*[year >= 2024 && status=published] %}
 
 ## Conferences and Workshops
-{% bibliography -q @inproceedings[year < 2021  && status=published] %}
+{% bibliography -q @inproceedings[year < 2024  && status=published] %}
 
 ## Journal Articles
-{% bibliography -q @article[year < 2021  && status=published] %}
+{% bibliography -q @article[year < 2024  && status=published] %}
 
 ## Talks
 {% bibliography -q @*[status=talk] %}
 <!-- - Malwares revealed through EM at [EDUC (European Digital UniverCity) - Session III: AI & Security](https://www.educalliance.eu/). *November, 24, 2021.* -->
 <!-- - Binary Data Analysis for Source Code Leakage Assessment at [CIDRE seminar](https://team.inria.fr/cidre/). *January 25, 2021.* -->
 
+## PhD students:
+- **Gaël CLAUDEL** (2024 - ): *"Side-channel analysis of Post-Quantum signature schemes: combined approaches"*, with [Aurore GILLEVIC](https://members.loria.fr/AGuillevic/) and [Benoît GERARD](https://people.irisa.fr/Benoit.Gerard/presentation_fr.html)
+- **Aymeric HILTENBRAND** (2023 - ): *"Side-Channel Attack for post-quantum cryptography"*, with [Guenael RENAULT](https://fr.linkedin.com/in/gu%C3%A9na%C3%ABl-renault-bb398b84), [Pierre-Alain FOUQUE](https://www.di.ens.fr/~fouque/) and [Romain POUSSIER](https://fr.linkedin.com/in/romain-poussier-88226b81)    
+
+
 ## Projects
+I am currently involve in the following projects: 
 - [IDROMEL](https://projects.laas.fr/IDROMEL/)
 - [PQ-TLS](https://pepr-pq-tls.cnrs.fr/)
 

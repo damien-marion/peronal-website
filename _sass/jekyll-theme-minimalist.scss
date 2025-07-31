@@ -1,6 +1,6 @@
-@import "fonts";
-@import "rouge-github";
-@import "colors";
+@use "fonts";
+@use "rouge-github";
+@use "colors";
 
 body {
   background-color: var(--clr-bg);
@@ -35,6 +35,16 @@ h1 {
 h2 {
   color: var(--clr-h2);
 }
+
+h2:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: #aaaaaa;
+    width: 80%;
+    margin: 10px 0 15px 0; /* top, right/left, bottom */
+}
+
 
 h3, h4, h5, h6 {
   color: var(--clr-h-3-6);
