@@ -4,6 +4,7 @@ layout: default
 <!-- <p style='text-align: right;'> [ {{ page.last_modified_at | date: '%d  %B  %Y' }}] </p> -->
 <h5 style="font-size:0.6vw"><i><p align='right'>[Last update: {{ page.last_modified_at | date: '%d  %B  %Y' }}]</p></i></h5>
 
+
 ## Who Am I?
 I am currently assistant professor (Maitre de conference) in computer science at [University of Rennes](https://www.univ-rennes.fr/).  
 I am member of the [Capsule](https://team.inria.fr/capsule/team-members/)
