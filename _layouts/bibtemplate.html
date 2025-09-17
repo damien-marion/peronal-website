@@ -222,6 +222,14 @@ table img {
         </a>
       </th>
     {% endif %}
+
+    {% if entry.slides %}
+      <th>
+        <a href="{{ entry.slides }}">
+          <img src="../assets/img/slides.png" style="width:46px;height:46px; vertical-align: middle;">
+        </a>
+      </th>
+    {% endif %}
   </tr>
 
   <tr>
@@ -246,6 +254,12 @@ table img {
     {% if entry.video %}
       <th>
         <a href="{{ entry.video }}">video</a>
+      </th>
+    {% endif %}
+
+    {% if entry.slides %}
+      <th>
+        <a href="{{ entry.slides }}">slides</a>
       </th>
     {% endif %}
   </tr>
