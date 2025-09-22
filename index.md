@@ -38,7 +38,6 @@ I completed my PhD at [Secure-IC](https://www.secure-ic.com/) and
 <!-- ## Coming soon -->
 <!-- {% bibliography -q @*[status=not-published] %} -->
 
-
 ## Newest Publications
 {% bibliography -q @*[year >= 2024 && status=published] %}
 
