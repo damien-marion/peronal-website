@@ -5,9 +5,9 @@ layout: default
 <h5 style="font-size:0.6vw"><i><p align='right'>[Last update: {{ page.last_modified_at | date: '%d  %B  %Y' }}]</p></i></h5>
 
 
+
 ## Who Am I?
-I am currently assistant professor (Maitre de conference) in computer science at [University of Rennes](https://www.univ-rennes.fr/).  
-I am member of the [Capsule](https://team.inria.fr/capsule/team-members/)
+I am currently assistant professor (Maitre de conference) in computer science at [University of Rennes](https://www.univ-rennes.fr/). I am member of the [Capsule](https://team.inria.fr/capsule/team-members/)
 team, inside the IRISA laboratory. My research focus on side-channel analysis. 
 
 I am involved in the ANR project [IDROMEL](https://projects.laas.fr/IDROMEL/): Improving the
@@ -62,15 +62,19 @@ I am currently involve in the following projects:
 - [IDROMEL](https://projects.laas.fr/IDROMEL/)
 - [PQ-TLS](https://pepr-pq-tls.cnrs.fr/)
 
+I have been involved in the following projects:
+- [AHMA](https://anr.fr/Project-ANR-18-CE39-0001) 
+
 ## Media Coverage
 ### Podcasts
 - [Leveraging electromagnetic emanations for IoT malware classification](https://www.electronicspecifier.com/news/podcasts/series-9-episode-4-leveraging-electromagnetic-emanations-for-iot-malware-classification). *electronicspecifier, Series 9 – Episode 4, September 16th, 2022*.
 
 ### Articles
+- [Cryptographie : les algorithmes du futur](https://www.espace-sciences.org/sciences-ouest/432/actualite/cryptographie-les-algorithmes-du-futur). *Sciences Ouest, october, 2025 (in french)*
 - [Detecting evasive malware on IOT devices using electromagnetic emanations](https://thehackernews.com/2022/01/detecting-evasive-malware-on-iot.html). *The Hacker News, January 3rd, 2022*.
 - [Using EM Waves to Detect Malware](https://www.schneier.com/blog/archives/2022/01/using-em-waves-to-detect-malware.html). *Schneier on Security, January 14, 2022*.
 - [Raspberry Pi Can Detect Malware Using Electromagnetic Waves, Say Researchers](https://www.indiatimes.com/technology/news/raspberry-pi-can-detect-malware-559086.html). *Indian Times, January 16th, 2022.*
-- [On peut détecter des malwares avec précision grâce... aux ondes électromagnétiques ](https://www.01net.com/actualites/on-peut-detecter-des-malwares-avec-precision-grace-aux-ondes-electromagnetiques-2053625.html). *01 net, January 16th, 2022 (in French)*.
+- [On peut détecter des malwares avec précision grâce... aux ondes électromagnétiques ](https://www.01net.com/actualites/on-peut-detecter-des-malwares-avec-precision-grace-aux-ondes-electromagnetiques-2053625.html). *01 net, January 16th, 2022 (in french)*.
 - [Identifying Malware By Sniffing Its EM Signature](https://hackaday.com/2022/01/19/identifying-malware-by-sniffing-its-em-signature/). *harckday, January 20th, 2022*.
 - [Detect malware with electromagnetic waves and Raspberry Pi](https://www.raspberrypi.com/news/detect-malware-with-electromagnetic-waves-and-raspberry-pi/). *RasperryPi, February 1st, 2022.*
 
